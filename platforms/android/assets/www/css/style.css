@@ -1,0 +1,76 @@
+/* To test in Chrome console use $('#id') .className */
+
+h1 {
+	text-align: center;
+}
+
+#keyValueList {
+	list-style: none;
+	width: 20em;
+
+}
+
+#keyValueList li {
+	border: 1px solid black;
+	border-bottom: none;
+}
+
+#keyValueList li:last-child {
+	border-bottom: 1px solid black;
+}
+
+#keyValueList label {
+	display: inline-block;
+	width: 8em;
+	padding-right: 2em;
+	font-weight: bold;
+	border-right: 1px solid black;	
+}
+
+#keyValueList span {
+
+}
+
+#chartWrapper {
+	display: inline-block;
+	width:45%;
+}
+
+#gaugeWrapper {
+	display: inline-block;
+	width:45%;
+}
+
+#tempchartdiv {
+	/*position:absolute;
+	left:10px;
+	top:200px;*/
+	height:200px;
+	width:500px;
+}
+
+#tempgauge {
+	/*position:absolute;
+	left:640px;
+	top:45px*/
+}
+
+#humchartdiv {
+/*	position:absolute;
+	left:10px;
+	top:420px;*/
+	height:200px;
+	width:500px;	
+}
+
+#humgauge {
+/*	position:absolute;
+	left:640px;
+	top:245px*/
+}
+
+#temppgauge {
+	/*position:absolute;
+	left:640px;
+	top:445px;*/
+}
